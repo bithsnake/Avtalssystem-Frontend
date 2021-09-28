@@ -1,0 +1,35 @@
+.show-date {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    border: 2px solid #446077;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0px;
+    min-width: 8rem;
+    z-index: 1;
+}
+
+
+.date-year{
+    font-size: large;
+    font-weight: 200;
+    margin: 0.4rem;
+    /* text-shadow:2px 2px rgb(24, 22, 22); */
+}
+.date-month{
+    font-size: 0.75rem;
+    margin: 0.4rem;;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.date-day{
+    font-size: large;
+    margin: 0.4rem;
+    font-weight: 200;
+}

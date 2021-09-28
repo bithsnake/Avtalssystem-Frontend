@@ -1,0 +1,73 @@
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+
+/*
+
+    src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/24/profile-icon.png"
+/>
+
+<Card.Img
+    sizes
+    variant="bottom"
+    src="https://icons.iconarchive.com/icons/uiconstock/socialmedia/24/Email-icon.png"
+
+*/
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.card-custom{
+    display: flex;
+}
+.border-effects{
+    display: flex;
+    width: min-content;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+
+.my-inputgroup-text{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 100%;
+}

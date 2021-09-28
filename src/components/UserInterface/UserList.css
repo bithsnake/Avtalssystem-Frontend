@@ -1,0 +1,10 @@
+.users-list, ul{
+    list-style: none;
+    padding:0;
+}
+
+.users-list-fallback, h2{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

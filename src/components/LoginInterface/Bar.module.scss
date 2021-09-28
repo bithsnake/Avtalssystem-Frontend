@@ -1,0 +1,32 @@
+$transitiontime: 0.2s;
+
+.bar-main{
+    display: flex;
+
+}
+.bar {
+    font-weight: 600;
+    color: white;
+    display: flex;
+    flex: 1;
+    width: auto;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    transition: $transitiontime;
+    
+    & :focus{
+        transform: scale(0.98);
+        transition: $transitiontime;
+    }
+
+    & :hover {
+        transform: scale(1.1);
+        transition:  $transitiontime;
+    }
+}
+.invalid{
+    background-color: royalblue;
+    transition:  $transitiontime;
+}

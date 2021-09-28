@@ -1,0 +1,9 @@
+.new-user {
+    transition: all 0.3s ease-out;
+    padding: 1rem;
+    border: 1px black;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-self: center;
+    text-align-last:auto
+}

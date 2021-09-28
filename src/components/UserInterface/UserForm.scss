@@ -1,0 +1,44 @@
+form {
+    display:table-caption;
+    transition: all 0.3s ease-out;
+}
+
+.user-filter__control label {
+right: 2rem;
+}
+.form-container{
+
+    transition: all 0.3s ease-out;
+}
+
+.form-container-slide-in {
+    transition: all 0.3s ease-out;
+}
+.new-user-controls{
+    transition: all 0.3s ease-out;
+    width: 50%;
+    &label{
+        -webkit-text-stroke: thin;
+    }
+}
+
+.new-user-control {
+    transition: all 0.3s ease-out;
+    width: min-content;
+    &label{
+        -webkit-text-stroke: thin;
+    }
+}
+
+.new-user-actions {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea {
+    min-width: 7rem;
+    max-width: 50rem;
+    max-height: 30rem;
+}
